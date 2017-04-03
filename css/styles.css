@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    color: #1B1B1B;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+label {
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+    font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#create label {
+    width: 10em;
+}
+label[for=remember] {
+    width: auto;
+}
+label[for=color] {
+    display: inline;
+    width: auto;
+}
+input{
+    color: inherit;
+    background: #fff;
+    border: 1px solid #e7eaec;
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+#revalidate {
+    margin-left: 6.5em;
+}
